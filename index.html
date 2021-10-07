@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+</head>
+<body>
+    <main id="container">
+        <header>
+            <h1>
+                <img src="images/logo.svg" alt="SPLITTER">
+            </h1>
+        </header>
+
+        <div id="box-1">
+            <label for="bill">Bill</label>
+            <span id="bill-error">Can't be zero</span>
+            <input type="text" name="billInput" id="bill" placeholder="0" dir="rtl">
+        </div>
+
+        <div id="box-2">
+            <label for="tip-6">Select Tip %</label>
+            <div id="btn-area">
+                <button class="btn-tip tip-1">5%</button>
+                <button class="btn-tip tip-2">10%</button>
+                <button class="btn-tip tip-3">15%</button>
+                <button class="btn-tip tip-4">25%</button>
+                <button class="btn-tip tip-5">50%</button>
+                <input class="btn-tip" id="tip-6" dir="rtl" placeholder="Custom"></input>
+            </div>
+        </div>
+
+        <div id="box-3">
+            <label for="people">Number of People</label>
+            <span id="people-error">Can't be zero</span>
+            <input type="text" name="peopleInput" id=people placeholder="0" dir="rtl">
+        </div>
+
+        <div id="box-4">
+            <div class="result-container tip-amount">
+                <div class="amount">Tip Amount</div>
+                <div class="person">/ person</div>
+                <div class="dolar" id="tip-result" dir="rtl">$0.00</div>
+            </div>
+
+            <div class="result-container total">
+                <div class="amount">Total</div>
+                <div class="person">/ person</div>
+                <div class="dolar" id="total-result" dir="rtl">$0.00</div>
+            </div>
+            <button class="reset-btn">RESET</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
