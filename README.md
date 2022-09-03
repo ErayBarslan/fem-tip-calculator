@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ErayBarslan/frontend-tip-calculator](https://github.com/ErayBarslan/frontend-tip-calculator)
-- Live Site URL: [https://eraybarslan.github.io/frontend-tip-calculator/](https://eraybarslan.github.io/frontend-tip-calculator/)
+- Solution URL: [https://github.com/ErayBarslan/fem-tip-calculator/](https://github.com/ErayBarslan/fem-tip-calculator/)
+- Live Site URL: [https://eraybarslan.github.io/fem-tip-calculator/](https://eraybarslan.github.io/fem-tip-calculator/)
 
 ### Screenshots
 
